@@ -1,0 +1,18 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- House Icon -->
+  <g transform="translate(0, 5) scale(0.5)">
+    <rect width="100" height="100" rx="20" fill="#FF5A5F" opacity="0.9"/>
+    <path d="M50 15L15 40V85H40V55H60V85H85V40L50 15Z" fill="white"/>
+    <path d="M35 65L40 75L50 65L60 75L65 65V85H35V65Z" fill="#FF5A5F"/>
+  </g>
+  
+  <!-- Text: MahaEstates -->
+  <text x="60" y="35" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="white">
+    <tspan fill="#FF5A5F">Maha</tspan>Estates
+  </text>
+  
+  <!-- Tagline -->
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="12" fill="#DDDDDD">
+    Maharashtra's Premier Properties
+  </text>
+</svg> 

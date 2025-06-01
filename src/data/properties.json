@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "title": "Premium Apartment in Hiranandani Gardens",
+    "location": "Powai, Mumbai, Maharashtra",
+    "address": "Hiranandani Gardens, Powai, Mumbai, Maharashtra, 400076",
+    "description": "A beautiful premium apartment in Hiranandani Gardens.",
+    "details": "Spacious 3BHK with modern amenities and great views.",
+    "features": ["3 Bedrooms", "2 Bathrooms", "Balcony", "Parking", "Modular Kitchen"],
+    "amenities": ["Swimming Pool", "Gym", "Garden", "Power Backup"],
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "developer": "Hiranandani Developers",
+    "completion": "2021",
+    "status": "Ready to Move",
+    "units": "100",
+    "price": "₹2,85,00,000"
+  },
+  {
+    "id": "2",
+    "title": "Modern Flat in Koregaon Park",
+    "location": "Koregaon Park, Pune, Maharashtra",
+    "address": "Koregaon Park, Pune, Maharashtra, 411001",
+    "description": "Modern flat in the heart of Pune's Koregaon Park.",
+    "details": "2BHK with stylish interiors and all modern facilities.",
+    "features": ["2 Bedrooms", "2 Bathrooms", "Balcony", "Covered Parking"],
+    "amenities": ["Clubhouse", "Security", "Elevator"],
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "developer": "Pune Realty",
+    "completion": "2023",
+    "status": "Ready to Move",
+    "units": "50",
+    "price": "₹1,25,00,000"
+  },
+  {
+    "id": "3",
+    "title": "Luxury Villa in Lonavala",
+    "location": "Lonavala, Maharashtra",
+    "address": "Hilltop, Lonavala, Maharashtra, 410401",
+    "description": "A luxury villa with scenic mountain views in Lonavala.",
+    "details": "4BHK villa with private pool and garden.",
+    "features": ["4 Bedrooms", "4 Bathrooms", "Private Pool", "Garden", "Garage"],
+    "amenities": ["Clubhouse", "Security", "Jogging Track"],
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "developer": "Lonavala Estates",
+    "completion": "2022",
+    "status": "Ready to Move",
+    "units": "10",
+    "price": "₹4,50,00,000"
+  }
+]
