@@ -1,10 +1,12 @@
-import { getProperties, saveProperty } from "../services/property.js";
+import { getProperties, saveProperty, getPropertyByIdService } from "../services/property.js";
 
 export const addNewProperty = async (req, res) => {
     try {
-        const users = await saveProperty(req.body);
-        return res.json(users)
+        await saveProperty(req.body);
+        // Always send a JSON response
+        return res.json({ success: true, message: "Property added successfully" });
     } catch (error) {
+        console.error(error);
         return res.status(500).json({ 
             message: "Error saving property", 
             error,
@@ -25,3 +27,15 @@ export const getAllProperties = async (req, res) => {
         });
     }
 }
+
+export const getPropertyById = async (req, res) => {
+  try {
+    const property = await getPropertyByIdService(req.params.id);
+    if (!property) {
+      return res.status(404).json({ message: "Property not found" });
+    }
+    res.json(property);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching property", error });
+  }
+};
