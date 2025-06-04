@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation ,useNavigate} from "react-router-dom";
 import { useAuth } from "../../context/authContext";
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const { currentUser, logout } = useAuth();
   const location = useLocation();
-
+const navigate = useNavigate();
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
@@ -28,9 +28,10 @@ const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleLogout = () => {
-    logout();
-  };
+ const handleLogout = () => {
+  logout();
+  navigate("/login");
+};
 
   // Check if a link is active
   const isActive = (path) => {
@@ -145,7 +146,8 @@ const NavBar = () => {
                         {currentUser.role.charAt(0).toUpperCase() +
                           currentUser.role.slice(1)}
                       </span>
-                      
+                      <span>|</span>
+                      <span className="text-red-600">Logout</span>
                     </p>
                   </div>
                 </div>
