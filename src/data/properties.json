@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "title": "Premium Apartment in Hiranandani Gardens",
-    "location": "Powai, Mumbai, Maharashtra",
+    "name": "Premium Apartment in Hiranandani Gardens",
+    "city": "Powai, Mumbai, Maharashtra",
     "address": "Hiranandani Gardens, Powai, Mumbai, Maharashtra, 400076",
     "description": "A beautiful premium apartment in Hiranandani Gardens.",
     "details": "Spacious 3BHK with modern amenities and great views.",
@@ -20,8 +20,8 @@
   },
   {
     "id": "2",
-    "title": "Modern Flat in Koregaon Park",
-    "location": "Koregaon Park, Pune, Maharashtra",
+    "name": "Modern Flat in Koregaon Park",
+    "city": "Koregaon Park, Pune, Maharashtra",
     "address": "Koregaon Park, Pune, Maharashtra, 411001",
     "description": "Modern flat in the heart of Pune's Koregaon Park.",
     "details": "2BHK with stylish interiors and all modern facilities.",
@@ -39,8 +39,8 @@
   },
   {
     "id": "3",
-    "title": "Luxury Villa in Lonavala",
-    "location": "Lonavala, Maharashtra",
+    "name": "Luxury Villa in Lonavala",
+    "city": "Lonavala, Maharashtra",
     "address": "Hilltop, Lonavala, Maharashtra, 410401",
     "description": "A luxury villa with scenic mountain views in Lonavala.",
     "details": "4BHK villa with private pool and garden.",

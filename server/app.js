@@ -6,6 +6,7 @@ import propertiesRoutes from "./routes/properties.js";
 import path from "path";
 import { fileURLToPath } from 'url';
 import fs from 'fs';
+import sellerRoutes from "./routes/sellerRoutes.js";
 
 
 const app = express();
@@ -45,6 +46,7 @@ const upload = multer({ storage: storage });
 
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/properties', upload.array("images"), propertiesRoutes);
+app.use('/api/v1/sellers', sellerRoutes);
 
 app.get('/', (req, res) => {
     res.json({message : 'welcome to code shift api'});

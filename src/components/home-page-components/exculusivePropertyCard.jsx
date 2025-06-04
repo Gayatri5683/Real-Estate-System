@@ -1,4 +1,4 @@
-import "./exculusiveCard.css";
+/* import "./exculusiveCard.css";
 import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { formatCompactNumber } from "../../constants/formatNumber";
@@ -39,7 +39,7 @@ const ExculusivePropertyCard = ({
         className="absolute w-full h-full block "
         to={`/products/${href}`}
       >
-        {/* <a href="" className="absolute w-full h-full block "></a> */}
+        
       </Link>
       <Link onClick={scrollToTop} to={`/${type}`}>
         <Button
@@ -72,3 +72,4 @@ const ExculusivePropertyCard = ({
 };
 
 export default ExculusivePropertyCard;
+ */

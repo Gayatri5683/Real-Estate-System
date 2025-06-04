@@ -19,75 +19,31 @@ export const AuthProvider = ({ children }) => {
     setLoading(false);
   }, []);
 
-  const login = (email, password) => {
-    // In a real app, this would be an API call
-    return new Promise((resolve, reject) => {
-      try {
-        // Simulate authentication
-        const users = JSON.parse(localStorage.getItem('users') || '[]');
-        const user = users.find(u => u.email === email && u.password === password);
-        
-        if (user) {
-          const userInfo = {
-            id: user.id,
-            email: user.email,
-            name: user.name,
-            phone: user.phone,
-            role: user.role || 'buyer'
-          };
-          
-          setCurrentUser(userInfo);
-          localStorage.setItem('currentUser', JSON.stringify(userInfo));
-          resolve(userInfo);
-        } else {
-          reject(new Error('Invalid credentials'));
-        }
-      } catch (error) {
-        reject(error);
-      }
+  const login = async (email, password) => {
+    const res = await fetch('/api/sellers/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
     });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || 'Login failed');
+    // Save user info to context/localStorage if needed
+    return data;
   };
 
-  const register = (email, password, name, phone, role) => {
-    // In a real app, this would be an API call
-    return new Promise((resolve, reject) => {
-      try {
-        const users = JSON.parse(localStorage.getItem('users') || '[]');
-        
-        // Check if email already exists
-        if (users.some(user => user.email === email)) {
-          reject(new Error('Email already in use'));
-          return;
-        }
-        
-        const newUser = {
-          id: Date.now().toString(),
-          email,
-          password,
-          name,
-          phone,
-          role: role || 'buyer'
-        };
-        
-        users.push(newUser);
-        localStorage.setItem('users', JSON.stringify(users));
-        
-        // Auto login after registration
-        const userInfo = {
-          id: newUser.id,
-          email: newUser.email,
-          name: newUser.name,
-          phone: newUser.phone,
-          role: newUser.role
-        };
-        
-        setCurrentUser(userInfo);
-        localStorage.setItem('currentUser', JSON.stringify(userInfo));
-        resolve(userInfo);
-      } catch (error) {
-        reject(error);
-      }
+  const register = async (email, password, name, phone, role) => {
+    // Send registration data to backend
+    const res = await fetch('/api/sellers/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password, name, phone, role })
     });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || 'Registration failed');
+    // Save user info to context/localStorage if needed
+    setCurrentUser(data.seller);
+    localStorage.setItem('currentUser', JSON.stringify(data.seller));
+    return data.seller;
   };
 
   const logout = () => {
@@ -95,8 +51,8 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem('currentUser');
   };
 
-  const isSellerOrBroker = () => {
-    return currentUser && (currentUser.role === 'seller' || currentUser.role === 'broker');
+  const isSellerOrBuyer = () => {
+    return currentUser && (currentUser.role === 'seller' || currentUser.role === 'buyer');
   };
 
   const value = {
@@ -104,7 +60,7 @@ export const AuthProvider = ({ children }) => {
     login,
     register,
     logout,
-    isSellerOrBroker
+    isSellerOrBuyer
   };
 
   return (

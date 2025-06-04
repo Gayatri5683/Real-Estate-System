@@ -23,19 +23,19 @@ const HomePage = () => {
             Discover the perfect property that matches your lifestyle and preferences. 
             Browse our extensive collection of homes, apartments, and commercial spaces.
           </p>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <Link
               to="/featured"
               className="inline-block bg-indigo-600 py-3 px-8 border border-transparent rounded-md text-base font-medium text-white hover:bg-indigo-700"
             >
               Explore Properties
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
       {/* Featured Properties Section */}
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-14 px-4 sm:py-24 sm:px-6 lg:px-4">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Featured Properties
