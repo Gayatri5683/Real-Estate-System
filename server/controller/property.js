@@ -1,12 +1,12 @@
-import { getProperties, saveProperty, getPropertyByIdService } from "../services/property.js";
+import { getProperties, saveProperty, getPropertyByIdService, savePropertyImages } from "../services/property.js";
 
 export const addNewProperty = async (req, res) => {
     try {
-        await saveProperty(req.body);
-        // Always send a JSON response
+        const propertyId = await saveProperty(req.body);
+        // console.log("req.files", req.files)
+        await savePropertyImages(req.files, propertyId);
         return res.json({ success: true, message: "Property added successfully" });
     } catch (error) {
-        console.error(error);
         return res.status(500).json({ 
             message: "Error saving property", 
             error,

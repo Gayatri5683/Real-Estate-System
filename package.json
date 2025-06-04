@@ -23,6 +23,7 @@
     "framer-motion": "^12.15.0",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.511.0",
+    "multer": "^2.0.0",
     "mysql": "^2.18.1",
     "mysql2": "^3.14.1",
     "react": "^19.1.0",

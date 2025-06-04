@@ -57,7 +57,7 @@ const NavBar = () => {
                 />
               </Link>
             </div>
-            <div className="hidden sm:ml-8 sm:flex sm:space-x-8">
+            <div className="hidden sm:ml-7 sm:flex sm:space-x-6">
               <Link
                 to="/"
                 className={`${

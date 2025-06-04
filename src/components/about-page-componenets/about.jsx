@@ -59,8 +59,8 @@ const About = () => {
 
           <div className="mt-16">
             <h2 className="text-2xl font-bold text-gray-900">Our Team</h2>
-            <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="text-center">
+            <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              {/* <div className="text-center">
                 <div className="relative h-48 w-48 mx-auto rounded-full overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
@@ -69,6 +69,18 @@ const About = () => {
                   />
                 </div>
                 <h3 className="mt-4 text-lg font-medium text-gray-900">Santosh Thombare</h3>
+                <p className="text-sm text-gray-500">Team Member</p>
+              </div> */}
+              
+              <div className="text-center">
+                <div className="relative h-48 w-48 mx-auto rounded-full overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://randomuser.me/api/portraits/men/45.jpg"
+                    alt="Team member"
+                  />
+                </div>
+                <h3 className="mt-4 text-lg font-medium text-gray-900">Chaitanya Deore</h3>
                 <p className="text-sm text-gray-500">Team Member</p>
               </div>
               <div className="text-center">
@@ -80,17 +92,6 @@ const About = () => {
                   />
                 </div>
                 <h3 className="mt-4 text-lg font-medium text-gray-900">Gayatri Zirmute</h3>
-                <p className="text-sm text-gray-500">Team Member</p>
-              </div>
-              <div className="text-center">
-                <div className="relative h-48 w-48 mx-auto rounded-full overflow-hidden">
-                  <img
-                    className="w-full h-full object-cover"
-                    src="https://randomuser.me/api/portraits/men/45.jpg"
-                    alt="Team member"
-                  />
-                </div>
-                <h3 className="mt-4 text-lg font-medium text-gray-900">Chaitanya Deore</h3>
                 <p className="text-sm text-gray-500">Team Member</p>
               </div>
               <div className="text-center">

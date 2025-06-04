@@ -12,7 +12,7 @@ const Featured = () => {
       price: '₹2,85,00,000',
       image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
       beds: 3,
-      baths: 3,
+      baths: 2,
       sqft: 1850
     },
     {
@@ -105,7 +105,7 @@ const Featured = () => {
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
-                  <span className="text-indigo-600 font-bold">{property.price}</span>
+                  <span className="text-indigo-600 font-bold"> {property.price}</span>
                   <Link
                     to={`/products/${property.id}`}
                     className="text-indigo-600 hover:text-indigo-900"
@@ -126,23 +126,23 @@ const Featured = () => {
               <div key={property._id} className="rounded-lg shadow-lg overflow-hidden">
                 <img
                   className="w-full h-48 object-cover"
-                  src={property.image}
+                  src={"http://localhost:3000/uploads/" + property.image}
                   alt={property.title}
                 />
                 <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900">{property.title}</h3>
-                  <p className="text-gray-600">{property.description}</p>
+                  <h3 className="text-lg font-semibold text-gray-900">{property.name}</h3>
+                  <p className="text-gray-600">{property.city} {property.streetAddress} {property.landmark} {property.pincode}</p>
                   <div className="mt-4 flex justify-between">
                     <div className="flex space-x-4 text-sm text-gray-500">
-                      {property.beds && <div>{property.beds} beds</div>}
-                      {property.baths && <div>{property.baths} baths</div>}
-                      {property.sqft && <div>{property.sqft} sqft</div>}
+                      {property.bedrooms && <div>{property.bedrooms} beds</div>}
+                      {property.bathrooms && <div>{property.bathrooms} baths</div>}
+                      {property.area && <div>{property.area} sqft</div>}
                     </div>
                   </div>
                   <div className="mt-4 flex justify-between items-center">
-                    <span className="text-indigo-600 font-bold">{property.price}</span>
+                    <span className="text-indigo-600 font-bold">₹{property.price}</span>
                     <Link
-                      to={`/products/${property._id}`}
+                      to={`/products/${property.ID}`}
                       className="text-indigo-600 hover:text-indigo-900"
                     >
                       View Details
