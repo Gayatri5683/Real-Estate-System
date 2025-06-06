@@ -55,5 +55,227 @@
     "status": "Ready to Move",
     "units": "10",
     "price": "₹4,50,00,000"
-  }
+  },
+  {
+  "id": "4",
+  "name": "Seafront Apartment in Worli",
+  "city": "Mumbai, Maharashtra",
+"address": "Worli Seaface, Mumbai, Maharashtra, 400018",
+
+  "description": "A luxurious seafront apartment offering panoramic views of the Arabian Sea.",
+  "details": "3BHK apartment with modern interiors and large sea-facing balcony.",
+  "features": [
+    "4 Bedrooms",
+    "4 Bathrooms",
+    "Sea View Balcony",
+    "Modular Kitchen",
+    "Covered Parking"
+  ],
+  "amenities": [
+    "Gym",
+    "Swimming Pool",
+    "24x7 Security",
+    "Elevator",
+    "Power Backup"
+  ],
+  "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Seaview Developers",
+  "completion": "2023",
+  "status": "Ready to Move",
+  "units": "20",
+  "price": "₹7,50,00,000"
+},
+{
+  "id": "5",
+  "name": "Premium Flat in Viman Nagar",
+  "city": "Pune",
+  
+  "address": "Skyline Residency, Viman Nagar, Pune, Maharashtra, 411014",
+  "description": "A premium 2BHK flat located in the upscale area of Viman Nagar, close to IT parks and malls.",
+  "details": "2BHK flat with fully furnished interiors and spacious balcony.",
+  "features": [
+    "2 Bedrooms",
+    "2 Bathrooms",
+    "Modular Kitchen",
+    "Balcony",
+    "Covered Parking"
+  ],
+  "amenities": [
+    "Gym",
+    "Children's Play Area",
+    "24x7 Security",
+    "Clubhouse",
+    "Power Backup"
+  ],
+  "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1598928506312-5ef7f83e36b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "UrbanNest Builders",
+  "completion": "2021",
+  "status": "Ready to Move",
+  "units": "15",
+  "price": "₹95,00,000"
+},
+{
+  "id": "6",
+  "name": "Luxury Bungalow in Nagpur",
+  "city": "Nagpur",
+ 
+  "address": "Palm Grove Estate, Civil Lines, Nagpur, Maharashtra, 440001",
+  "description": "A premium luxury bungalow located in the serene and elite Civil Lines area of Nagpur.",
+  "details": "5BHK bungalow with spacious garden, terrace, and private driveway.",
+  "features": [
+    "5 Bedrooms",
+    "5 Bathrooms",
+    "Private Garden",
+    "Terrace",
+    "Private Driveway",
+    "Servant Room"
+  ],
+  "amenities": [
+    "Gated Community",
+    "24x7 Security",
+    "Power Backup",
+    "Rainwater Harvesting"
+  ],
+  "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "GreenLiving Developers",
+  "completion": "2023",
+  "status": "Ready to Move",
+  "units": "5",
+  "price": "₹3,25,00,000"
+},
+{
+  "id": "7",
+  "name": "Luxury Apartment in Bandra",
+ "city":"Bandra West,Mumbai, Maharashtra",
+  "address": "Carter Road, Bandra West, Mumbai, Maharashtra, 400050",
+  "description": "A stylish and spacious luxury apartment in the heart of Bandra.",
+  "details": "3BHK apartment with sea view and modern interiors.",
+  "features": ["3 Bedrooms", "3 Bathrooms", "Sea View", "Balcony", "Parking"],
+  "amenities": ["Gym", "Security", "Clubhouse", "Power Backup"],
+  "image": "https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Bandra Luxe Homes",
+  "completion": "2023",
+  "status": "Ready to Move",
+  "units": "12",
+  "price": "₹5,75,00,000"
+},
+{
+  "id": "8",
+  "name": "Garden View Apartment in Kothrud",
+ "city":"Kothrud, Pune, Maharashtra",
+  "address": "Paud Road, Kothrud, Pune, Maharashtra, 411038",
+  "description": "A peaceful garden-facing apartment in the heart of Kothrud.",
+  "details": "2BHK apartment with spacious balcony and green views.",
+  "features": ["2 Bedrooms", "2 Bathrooms", "Garden View", "Balcony", "Lift", "Reserved Parking"],
+  "amenities": ["Security", "Children's Play Area", "Garden", "Power Backup"],
+  "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1084&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9b78841?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Kothrud Greens",
+  "completion": "2021",
+  "status": "Ready to Move",
+  "units": "24",
+  "price": "₹1,15,00,000"
+},
+{
+  "id": "9",
+  "name": "Hill View Villa in Panchgani",
+  "city": "Panchgani, Satara, Maharashtra",
+  "address": "Table Land Road, Panchgani, Satara, Maharashtra, 412805",
+  "description": "A luxurious hilltop villa in Panchgani offering stunning valley views and peace.",
+  "details": "3BHK villa with large terrace, private lawn, and scenic mountain views.",
+  "features": ["3 Bedrooms", "3 Bathrooms", "Private Lawn", "Terrace", "Scenic Views", "Parking Space"],
+  "amenities": ["24x7 Security", "Rainwater Harvesting", "Backup Power", "Open Garden Area"],
+  "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Serene Hills Properties",
+  "completion": "2023",
+  "status": "Ready to Move",
+  "units": "5",
+  "price": "₹2,85,00,000"
+},
+{
+  "id": "10",
+  "name": "Beachfront Property in Alibaug",
+"city":"Alibaug,Raigad, Maharashtra",
+  "address": "Varsoli Beach Road, Alibaug, Raigad, Maharashtra, 402201",
+  "description": "An exquisite beachfront villa in Alibaug with direct access to the beach and breathtaking sea views.",
+  "details": "5BHK luxury beachfront villa with infinity pool, private beach access, and modern architecture.",
+  "features": ["5 Bedrooms", "5 Bathrooms", "Infinity Pool", "Private Beach Access", "Sea View Deck", "Covered Parking"],
+  "amenities": ["Gated Security", "Power Backup", "Water Supply", "Smart Home Features"],
+  "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    "https://images.unsplash.com/photo-1558981001-5864ea07b935?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Coastal Living Developers",
+  "completion": "2024",
+  "status": "Under Construction",
+  "units": "4",
+  "price": "₹6,75,00,000"
+},
+{
+  "id": "11",
+  "name": "Heritage Bungalow in Kolhapur",
+ "city":"Shahupuri , Kolhapur, Maharashtra",
+  "address": "Shahupuri, Kolhapur, Maharashtra, 416001",
+  "description": "A beautifully preserved heritage bungalow in the heart of Kolhapur, blending tradition with modern comforts.",
+  "details": "4BHK heritage bungalow with antique wooden interiors, large courtyard, and traditional Kolhapuri design.",
+  "features": ["4 Bedrooms", "3 Bathrooms", "Courtyard", "Vintage Interiors", "Car Parking", "Terrace"],
+  "amenities": ["24x7 Water Supply", "Solar Water Heating", "Gated Entry", "Green Landscaping"],
+  "image": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    "https://images.unsplash.com/photo-1589927986089-35812388d1d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "Kolhapur Heritage Homes",
+  "completion": "Restored in 2023",
+  "status": "Ready to Move",
+  "units": "1",
+  "price": "₹1,95,00,000"
+},
+{
+  "id": "12",
+  "name": "Eco-Friendly Villa in Nashik",
+ "city":"Gangapur Road, Nashik, Maharashtra",
+  "address": "Gangapur Road, Nashik, Maharashtra, 422013",
+  "description": "A sustainable 3BHK villa built with eco-friendly materials and powered by solar energy, nestled in lush greenery.",
+  "details": "3BHK eco-villa with rainwater harvesting, solar panels, green roofing, and organic garden.",
+  "features": ["3 Bedrooms", "3 Bathrooms", "Solar Panels", "Rainwater Harvesting", "Private Garden", "Terrace"],
+  "amenities": ["Community Organic Farm", "Nature Trails", "Security", "Yoga Deck", "Children’s Play Area"],
+  "image": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "gallery": [
+    "https://images.unsplash.com/photo-1613977257363-707ba9348225?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    "https://images.unsplash.com/photo-1621980361996-f480f82ba7df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+  ],
+  "developer": "GreenNest Builders",
+  "completion": "2023",
+  "status": "Ready to Move",
+  "units": "5",
+  "price": "₹2,25,00,000"
+}
+
+
+
+
+
+
+
+
+
 ]
