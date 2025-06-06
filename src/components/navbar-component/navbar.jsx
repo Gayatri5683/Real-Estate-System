@@ -147,16 +147,16 @@ const navigate = useNavigate();
                           currentUser.role.slice(1)}
                       </span>
                       <span>|</span>
-                      <span className="text-red-600">Logout</span>
+                      <span className="text-red-600"onClick={handleLogout}>Logout</span>
                     </p>
                   </div>
                 </div>
-                <button
+                {/* <button
                   onClick={handleLogout}
                   className="px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ease-in-out transform hover:scale-105 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white shadow-md hover:shadow-lg"
                 >
                   Logout
-                </button>
+                </button> */}
               </div>
             ) : (
               <div className="flex items-center space-x-4">
