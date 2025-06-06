@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const BuyerList = () => {
   const [buyers, setBuyers] = useState([]);
@@ -24,16 +25,21 @@ const BuyerList = () => {
               <th className="py-2 px-4 border">Name</th>
               <th className="py-2 px-4 border">Email</th>
               <th className="py-2 px-4 border">Phone</th>
-              <th className="py-2 px-4 border">Actions</th>
+              <th className="py-2 px-4 border">Property</th>
             </tr>
           </thead>
           <tbody>
             {buyers.map(buyer => (
-              <tr key={buyer._id}>
+              <tr key={buyer.buyerId}>
                 <td className="py-2 px-4 border">{buyer.name}</td>
                 <td className="py-2 px-4 border">{buyer.email}</td>
                 <td className="py-2 px-4 border">{buyer.phone}</td>
-                <td className="py-2 px-4 border">{/* Actions here */}</td>
+                <td className="py-2 px-4 border">
+                  {buyer.propertyTitle
+                    ? <span>{buyer.propertyTitle} (ID: {buyer.propertyId})</span>
+                    : <span>No purchase</span>
+                  }
+                </td>
               </tr>
             ))}
           </tbody>

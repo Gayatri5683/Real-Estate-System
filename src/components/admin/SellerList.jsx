@@ -14,7 +14,7 @@ const SellerList = () => {
         setLoading(false);
         // Fetch properties for each seller
         res.data.forEach(seller => {
-          axios.get(`http://localhost:5000/api/properties/seller/${seller.id}`)
+          axios.get(`http://localhost:5000/api/properties/seller/${seller._id}`)
             .then(propRes => {
               setPropertiesBySeller(prev => ({
                 ...prev,
@@ -42,7 +42,7 @@ const SellerList = () => {
           </thead>
           <tbody>
             {sellers.map(seller => (
-              <tr key={seller.id}>
+              <tr key={seller._id}>
                 <td>{seller.name}</td>
                 <td>{seller.email}</td>
                 <td>{seller.phone}</td>
@@ -56,7 +56,7 @@ const SellerList = () => {
                   </ul>
                 </td>
                 <td>
-                  <AddProperty sellerId={seller.id} />
+                  <AddProperty sellerId={seller._id} />
                 </td>
               </tr>
             ))}

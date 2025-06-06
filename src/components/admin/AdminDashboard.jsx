@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth } from '../../context/authContext';
-import { useNavigate, Outlet } from 'react-router-dom';
+import { useNavigate/* , Outlet */ } from 'react-router-dom';
 
 const AdminDashboard = () => {
   const { currentUser } = useAuth();
@@ -30,7 +30,7 @@ const AdminDashboard = () => {
           Manage Buyers
         </button>
         <main>
-          <Outlet />
+          {/* <Outlet /> */}
         </main>
       </div>
       {/* Add more admin features here */}
