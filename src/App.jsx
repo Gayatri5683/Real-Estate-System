@@ -31,9 +31,9 @@ const ProtectedRoute = ({ children }) => {
     return <Navigate to="/login" />;
   }
 
-  if (!isSellerOrBroker()) {
+  /* if (!isSellerOrBroker()) {
     return <Navigate to="/" />;
-  }
+  } */
 
   return children;
 };

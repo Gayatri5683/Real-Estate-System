@@ -127,7 +127,7 @@ const AboutProject = () => {
                 Location
               </h3>
               <p className="mb-2 text-gray-700 font-medium">
-                {property.address}
+                {property.location}
               </p>
               <iframe
                 title="map"

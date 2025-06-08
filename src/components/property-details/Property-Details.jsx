@@ -32,7 +32,7 @@ const PropertyDetails = () => {
       <h1 className="text-3xl font-bold mb-4">{property.name}</h1>
       <p className="mb-2"><strong>Location:</strong> {property.city}</p>
       <p className="mb-2"><strong>Price:</strong> ₹{property.price}</p>
-      <p className="mb-2"><strong>Bedrooms:</strong> {property.bedroom}</p>
+      <p className="mb-2"><strong>Bedrooms:</strong> {property.bedrooms}</p>
       <p className="mb-2"><strong>Bathrooms:</strong> {property.bathrooms}</p>
       <p className="mb-2"><strong>Area:</strong> {property.area} sq ft</p>
       <p className="mb-2"><strong>Description:</strong> {property.description}</p>
