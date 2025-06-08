@@ -45,7 +45,7 @@ const Products = () => {
       <div className="relative">
         <img
           className="w-full h-96 object-cover"
-          src={"http://localhost:3000/uploads/" + property.image}
+          src={/* "http://localhost:3000/uploads/" + */ property.image}
           alt={property.title}
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
@@ -53,7 +53,7 @@ const Products = () => {
           <div className="text-center text-white">
             <h1 className="text-4xl font-bold">{property.name}</h1>
             <p className="mt-2 text-xl">{property.city}</p>
-            <p className="mt-4 text-2xl font-bold">₹{property.price}</p>
+            <p className="mt-4 text-2xl font-bold">{/* ₹ */}{property.price}</p>
           </div>
         </div>
       </div>

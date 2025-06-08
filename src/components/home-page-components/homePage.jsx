@@ -54,8 +54,8 @@ const HomePage = () => {
                 alt={property.title}
               />
               <div className="p-6">
-                <h3 className="text-lg font-semibold text-gray-900">{property.title}</h3>
-                <p className="text-gray-600">{property.location}</p>
+                <h3 className="text-lg font-semibold text-gray-900">{property.name}</h3>
+                <p className="text-gray-600">{property.city}</p>
                 <div className="mt-4 flex justify-between items-center">
                   <span className="text-indigo-600 font-bold">{property.price}</span>
                   <Link
